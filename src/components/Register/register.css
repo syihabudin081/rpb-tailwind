@@ -81,7 +81,7 @@ input, button{
   position: relative;
   width: 640px;
   height: 100%;
-  padding: 50px 30px;
+  padding: 10px 30px;
   -webkit-transition:-webkit-transform 1.2s ease-in-out;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out;
@@ -97,7 +97,7 @@ h2{
 label{
   display: block;
   width: 260px;
-  margin: 25px auto 0;
+  margin: 10px auto 0;
   text-align: center;
 }
 
