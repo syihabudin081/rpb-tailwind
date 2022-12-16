@@ -47,10 +47,11 @@ function Carousels() {
         <div class="carousel-item float-left w-full">
         <div className="h-screen w-full bg-blue-600 flex items-center content-center justify-center">
             <div className="flex flex-col p-36 gap-10  ">
-              <h1 className="font-extrabold text-6xl">
-                TRUSTED.<br></br>
-                APPAREL
-              </h1>
+            <h1 className="font-extrabold text-6xl">
+            PDL.
+            <br />
+            <span>pakaian dinas lapangan</span>
+          </h1>
               <h1 className="w-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </h1>
@@ -61,10 +62,11 @@ function Carousels() {
         <div class="carousel-item float-left w-full">
         <div className="h-screen w-full bg-blue-600 flex items-center content-center justify-center">
             <div className="flex flex-col p-36 gap-10  ">
-              <h1 className="font-extrabold text-6xl">
-                TRUSTED.<br></br>
-                APPAREL
-              </h1>
+            <h1 className="font-extrabold text-6xl">
+            Others.
+            <br />
+            <span>condiment</span>
+          </h1>
               <h1 className="w-1/2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </h1>

@@ -5,26 +5,39 @@ import Nav from "./components/Navbar";
 import Home from "./pages/Home";
 import "tw-elements";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Product from "./pages/Product";
+import AbsoluteNav from "./components/AbsoluteNav";
+import Register from "./components/Register/Register";
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+
           <Route
             path="/"
             element={
               <>
-                <Navbar />
+               <AbsoluteNav/>
                 <Home />
               </>
             }
           />
+          <Route
+            path="/register"
+            element={
+              <>
+               
+                <Register />
+              </>
+            }
+          />
             <Route
-            path="/"
+            path="/product"
             element={
               <>
                 <Navbar />
-                <Home />
+                <Product/>
               </>
             }
           />
