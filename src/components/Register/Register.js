@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
-import { Link, redirect } from "react-router-dom";
+import { Link, redirect, useNavigate } from "react-router-dom";
 import "./register.css";
 
-const BASE_URL = "https://jellyfish-app-6n27v.ondigitalocean.app/api";
+const BASE_URL = "https://jellyfish-app-6n27v.ondigitalocean.app";
 
 function Register() {
+  const navigate = useNavigate();
   const [isSignUp, setIsSignUp] = React.useState(false);
   const [form, setForm] = React.useState({
     name: "",
@@ -54,7 +55,7 @@ function Register() {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        redirect("/");
+        navigate("/");
       });
   };
 
